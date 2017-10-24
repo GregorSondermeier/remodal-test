@@ -1,0 +1,12 @@
+{
+  "name": "remodal-test",
+  "version": "0.0.1",
+  "description": "A test for https://github.com/VodkaBears/Remodal",
+  "main": "index.js",
+  "repository": "git@github.com:GregorSondermeier/remodal-test.git",
+  "author": "Gregor Sondermeier <gregor.sondermeier.github@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "remodal": "^1.1.1"
+  }
+}

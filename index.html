@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>remodal Test</title>
+
+    <link rel="stylesheet" href="./node_modules/remodal/dist/remodal.css">
+    <link rel="stylesheet" href="./node_modules/remodal/dist/remodal-default-theme.css">
+</head>
+<body>
+
+<div class="remodal-bg">
+    ...Page content...
+</div>
+
+<div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <h1>Remodal</h1>
+    <p>
+        Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+    </p>
+    <br>
+    <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+    <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+</div>
+
+<a data-remodal-target="modal" href="#">Call the modal with data-remodal-id="modal"</a>
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./node_modules/remodal/dist/remodal.min.js"></script>
+
+</body>
+</html>
